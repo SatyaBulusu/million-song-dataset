@@ -12,6 +12,7 @@ year = Integer.parseInt(str[53]);
 artistName = str[12];
 
 try{
+System.out.println("inside try");
 hotness = Float.parseFloat(str[43]);
 }catch(Exception e){
 hotness = 0.0f;

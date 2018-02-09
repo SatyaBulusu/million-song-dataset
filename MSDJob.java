@@ -27,5 +27,8 @@ public class MSDJob{
     job.setOutputValueClass(Text.class);
 
     System.exit(job.waitForCompletion(true)?0:1);
+    System.out.println ("test commit1");
+    System.out.println("test commit2");
+    System.out.println("test commit5");
   }
 }

@@ -15,6 +15,7 @@ public class MSDReducer extends Reducer<IntWritable,Text, IntWritable, Text> {
 
     String outputText = "None found for this year";
     float val = 0.0f;
+    System.out.println(outputText);
 
     for (Text value : values) {
       String strOutput = value.toString();
